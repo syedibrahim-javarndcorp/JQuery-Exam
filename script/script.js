@@ -141,7 +141,7 @@ $(document).ready(function () {
 
     newArr.push(newObj);
     createTable(newObj);
-
+    // creating tables
     function createTable(data) {
       resetInputs();
       let table = document.getElementById("table-body");
@@ -165,7 +165,7 @@ $(document).ready(function () {
   });
 });
 
-// Edit button
+// Edit directly in field
 function edit(index) {
   if (sessionStorage.getItem("role") === "admin") {
     let x = document.getElementById(index + "_index");
