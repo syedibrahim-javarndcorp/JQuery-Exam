@@ -18,7 +18,7 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <!-- Navigation bar -->
+        <!-- Navbar -->
         <ul class="nav">
 
           <li class="nav-item">
@@ -33,7 +33,7 @@
             <a class="nav-link active" href="#"><i class="fas fa-envelope"></i>Contact</a>
           </li>
 
-          <button id="clogout" class="logoutb"><i class="fa fa-user"></i>Logout</button>
+          <button class="logoutb"><i class="fa fa-user" ></i>Logout</button>
           
         </ul>
       </div>
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <!-- New contact adding -->
+      <!-- New contact addition Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -63,19 +63,14 @@
             </div>
 
             <div class="modal-body">
-              <input type="text" placeholder="First name" id="fname" required />
-              <span class="error-msg err-fname">Cannot be empty</span>
-              <input type="text" placeholder="Last name" id="lname" required />
-              <span class="error-msg err-lname">Cannot be empty</span>
-              <input type="email" placeholder="E-mail " id="emailId" required />
-              <span class="error-msg err-email">Cannot be empty</span>
-              <input type="number" placeholder="Mobile no." id="mobile" required />
-              <span class="error-msg err-mobile">Cannot be empty</span>
-              <input type="text" placeholder="City" id="city" required />
-              <span class="error-msg err-city">Cannot be empty</span>
+              <input type="text" placeholder="First name" id="fname" required /><span class="error-msg err-fname">Cannot be empty</span>
+              <input type="text" placeholder="Last name" id="lname" required /><span class="error-msg err-lname">Cannot be empty</span>
+              <input type="email" placeholder="E-mail " id="emailId" required /><span class="error-msg err-email">Cannot be empty</span>
+              <input type="number" placeholder="Mobile no." id="mobno" required /><span class="error-msg err-mobno">Cannot be empty/enter number</span>
+              <input type="text" placeholder="City" id="city" required /><span class="error-msg err-city">Cannot be empty</span>
             </div>
 
-            <div class="modal-footer" style="margin-right: 25%;">
+            <div class="modal-footer foot" >
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               <button type="submit" class="btn btn-primary" id="contact-btn" data-dismiss="modal">Add Contact</button>
             </div>
@@ -85,9 +80,9 @@
       </div>
 
       <div class="table-box text-center mt-5">
-        <table class="ctable">
+        <table class="tstyle" >
 
-          <thead id="cthead" class="contact-thead">
+          <thead id="chead" class="contact-thead" >
             <tr>
               <th>S.No</th>
               <th>First name</th>
@@ -111,5 +106,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="script/script.js"></script>
-
 </html>

@@ -17,7 +17,7 @@ i {
 }
 
 /* Selecting the name by class name */
-
+/* head and nav */
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -36,12 +36,16 @@ i {
   background-color: #464343;
 }
 
+.nav-item {
+  color: #fff;
+}
+
 .active {
   color: #fff;
   transition: 0.3s ease-in-out;
   background-color: #05b977;
 }
-
+/* buttons */
 .btn-primary {
   background-color: #4181ac;
   border: none;
@@ -56,14 +60,6 @@ i {
   background-color: #4d4b4b;
   border: none;
   outline: none;
-}
-
-.btn-secondary:hover {
-  background-color: #000;
-}
-
-.modal-body input {
-  padding: 5px 10px;
 }
 
 .newcontact-btn {
@@ -97,6 +93,14 @@ i {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
   background-color: #111;
+}
+
+.btn-secondary:hover {
+  background-color: #000;
+}
+
+.modal-body input {
+  padding: 5px 10px;
 }
 
 .contact-thead {
@@ -142,17 +146,20 @@ i {
   font-size: 12px;
   opacity: 0;
 }
-/* Selecting the name by ID name */
-
-#cthead {
-  background-color: #f0f0f0;
-  border: 1px solid #cccccc;
-}
-#clogout {
-  color: #fff;
-}
-.ctable {
+.tstyle {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+}
+.foot {
+  margin-right: 25%;
+}
+.mfoot{
+  margin-right: 33%"
+}
+/* Selecting the name by ID name */
+
+#chead {
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
 }
