@@ -33,7 +33,7 @@ i {
   justify-content: left;
   align-items: left;
   width: 100%;
-  background-color: #464343;
+  background-color: #3d3d3d;
 }
 
 .nav-item {
@@ -43,11 +43,11 @@ i {
 .active {
   color: #fff;
   transition: 0.3s ease-in-out;
-  background-color: #05b977;
+  background-color: #00cc81;
 }
 /* buttons */
 .btn-primary {
-  background-color: #4181ac;
+  background-color: #3779a5;
   border: none;
   outline: none;
 }
@@ -110,7 +110,7 @@ i {
 
 .fa-edit {
   color: #fff;
-  background-color: #1c8d18;
+  background-color: #18a013;
   cursor: pointer;
   padding: 1%;
 }
@@ -141,7 +141,7 @@ i {
 }
 
 .error-msg {
-  color: #ff2727;
+  color: #ff1d1d;
   font-weight: bold;
   font-size: 12px;
   opacity: 0;
@@ -160,6 +160,6 @@ i {
 /* Selecting the name by ID name */
 
 #chead {
-  background-color: #f0f0f0;
-  border: 1px solid #cccccc;
+  background-color: #f8f7f7;
+  border: 1px solid #dbdbdb;
 }
